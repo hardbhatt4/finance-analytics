@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# Database files
+*.db
+
+# OS files
+.DS_Store
+
+# Power BI temp files
+*.pbix~
+
+# VS Code
+.vscode/
