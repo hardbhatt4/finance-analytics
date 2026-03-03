@@ -39,3 +39,9 @@ CREATE TABLE staging_finance (
     savings_rate DECIMAL(6,4)
 );
 
+LOAD DATA LOCAL INFILE 'data/cleaned_expenses.csv'
+INTO TABLE staging_finance
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
