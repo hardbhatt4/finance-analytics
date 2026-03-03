@@ -1,4 +1,4 @@
-# 💳 Customer Finance Analytics
+# Customer Finance Analytics
 
 > An end-to-end data analytics pipeline covering data cleaning, SQL modelling, interactive Power BI dashboards, and supervised machine learning — applied to a 20,000-customer personal finance dataset.
 
