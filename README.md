@@ -84,30 +84,4 @@ The dashboard contains **3 report pages**, each targeting a different analytical
 
 A supervised binary classification model was built to label customers as **low risk** or **high risk** based on their financial profile. Methodology includes using Logistic Regression (scikit-learn), preprocessing using `Standard Scaler` and Feature Selection by droppping `Income` after testing to improve model accuracy. Visualisation includes prediction against important features and heatmap of confusion matrix
 
-## Repository Structure
-
-```
-finance-analytics/
-│
-├── data/
-│   ├── raw_expenses.csv          
-│   └── cleaned_expenses.csv      
-│
-├── python/
-│   ├── clean_data.ipynb         
-│   └── analysis.ipynb          
-│
-├── sql/
-│   ├── create_db.sql             
-│   ├── create_tables.sql         
-│   ├── queries.sql               
-│   └── views.sql                 
-│
-├── dashboard/
-│   └── powerbi_dashboard.pbix
-│
-├── .gitignore
-└── README.md
-```
-
 *Built as an end-to-end portfolio project demonstrating data engineering, SQL analytics, business intelligence, and machine learning skills.*
