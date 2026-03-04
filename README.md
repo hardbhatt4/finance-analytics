@@ -95,7 +95,7 @@ finance-analytics/
 │
 ├── python/
 │   ├── clean_data.ipynb         
-│   └── risk_model.ipynb          
+│   └── analysis.ipynb          
 │
 ├── sql/
 │   ├── create_db.sql             
